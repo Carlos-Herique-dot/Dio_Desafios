@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\SistemaDeReservaHotel\\SistemaDeReservaHotel.csproj": {}
+    "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\Dio_Desafios\\SistemaDeReservaHotel\\SistemaDeReservaHotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\SistemaDeReservaHotel\\SistemaDeReservaHotel.csproj": {
+    "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\Dio_Desafios\\SistemaDeReservaHotel\\SistemaDeReservaHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\SistemaDeReservaHotel\\SistemaDeReservaHotel.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\Dio_Desafios\\SistemaDeReservaHotel\\SistemaDeReservaHotel.csproj",
         "projectName": "SistemaDeReservaHotel",
-        "projectPath": "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\SistemaDeReservaHotel\\SistemaDeReservaHotel.csproj",
+        "projectPath": "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\Dio_Desafios\\SistemaDeReservaHotel\\SistemaDeReservaHotel.csproj",
         "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\SistemaDeReservaHotel\\obj\\",
+        "outputPath": "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\Dio_Desafios\\SistemaDeReservaHotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config"

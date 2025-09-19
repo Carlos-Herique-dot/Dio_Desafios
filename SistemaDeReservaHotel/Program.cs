@@ -21,7 +21,7 @@ catch (System.Exception ex)
     Console.WriteLine("Erro na busca pelo diretório." + ex.Message);
 }
 
-static void Menu()
+void Menu()
 {
     while (true)
     {
@@ -34,15 +34,22 @@ static void Menu()
         switch (desejo)
         {
             case "hospede":
-                continue;
-            case "suite":
-                continue;
+                Console.WriteLine("Nome do Cliente");
+                string Nome = Console.ReadLine()!;
+                Console.WriteLine("Sobrenome do Cliente");
+                string Sobrenome = Console.ReadLine()!;
+                Console.WriteLine("CPF do Cliente");
+                string Cpf = Console.ReadLine()!;
+
+                reserva.CadastrarPessoas(Cpf, Nome, Sobrenome);
+                break;
             case "reserva":
-                continue;
+                reserva.Reservar();
+                break;
             case "sair":
-                break; 
+                break;
         }
-    
+        break;
     }
     
 

@@ -77,8 +77,6 @@ namespace SistemaDeReservaHotel.Models
                 conn.Close();
             }
 
-
-
         }
 
         public string BuscarCliente(string cpf)
@@ -189,6 +187,39 @@ namespace SistemaDeReservaHotel.Models
             string suiteDesejada = Console.ReadLine()!;
             string idSuite = BuscarSuites(suiteDesejada);
 
+            Console.WriteLine("Quanto tempo pretende ficar? [dias]");
+            int tempo = Convert.ToInt32(Console.ReadLine());
+
+            decimal valor = 0;
+            decimal valorAtualizado = 0;
+            switch (suiteDesejada)
+            {
+                case "Basic":
+                    valor = tempo * 100;
+                    valorAtualizado = valor;
+                    if (tempo >= 10)
+                    {
+                        valorAtualizado = (valor * 90) / 100;
+                    }
+                    break;
+                case "Master":
+                    valor = tempo * 150;
+                    valorAtualizado = valor;
+                    if (tempo >= 10)
+                    {
+                        valorAtualizado = (valor * 90) / 100;
+                    }
+                    break;
+                case "Premium":
+                    valor = tempo * 250;
+                    valorAtualizado = valor;
+                    if (tempo >= 10)
+                    {
+                        valorAtualizado = (valor * 90) / 100;
+                    }
+                    break;
+            }
+
             if (resposta == "s")
             {
                 SqliteConnection conn = new SqliteConnection(connectionString);
@@ -205,6 +236,7 @@ namespace SistemaDeReservaHotel.Models
                     cmd.ExecuteNonQuery();
                     Console.WriteLine("Hospede agendado com sucesso.");
                     conn.Close();
+                    Console.WriteLine($"O Valor que o hospede pagará é {valorAtualizado:C}");
                 }
                 catch (SqliteException ex)
                 {
@@ -213,7 +245,7 @@ namespace SistemaDeReservaHotel.Models
             }
             else if (resposta == "n")
             {
-
+                Console.WriteLine("Vamos fechar tudo.");
             }
         }
     }

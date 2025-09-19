@@ -295,7 +295,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.Data.SQLite >= 9.0.9"
+      "Microsoft.Data.Sqlite >= 9.0.9"
     ]
   },
   "packageFolders": {
@@ -304,11 +304,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\SistemaDeReservaHotel\\SistemaDeReservaHotel.csproj",
+      "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\Dio_Desafios\\SistemaDeReservaHotel\\SistemaDeReservaHotel.csproj",
       "projectName": "SistemaDeReservaHotel",
-      "projectPath": "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\SistemaDeReservaHotel\\SistemaDeReservaHotel.csproj",
+      "projectPath": "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\Dio_Desafios\\SistemaDeReservaHotel\\SistemaDeReservaHotel.csproj",
       "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\SistemaDeReservaHotel\\obj\\",
+      "outputPath": "C:\\Users\\Carlos\\Desktop\\Estudo\\CSharp\\DIO\\Dio_Desafios\\SistemaDeReservaHotel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -341,7 +341,7 @@
       "net10.0": {
         "targetAlias": "net10.0",
         "dependencies": {
-          "Microsoft.Data.SQLite": {
+          "Microsoft.Data.Sqlite": {
             "target": "Package",
             "version": "[9.0.9, )"
           }
